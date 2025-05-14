@@ -1,0 +1,6 @@
+fun int main() = 
+    let x = 3; 
+        y = 2 * x; 
+        z = iota(y + 4) 
+    in 
+    write(z[y])
